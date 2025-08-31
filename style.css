@@ -20,21 +20,21 @@
             font-weight: 700;
         }
         
-        /* Navbar styling */
-        .navbar {
-            background-color: darkgreen;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-            padding: 15px 0;
-            transition: var(--transition);
-        }
-        
-        .navbar-brand {
-            font-weight: 700;
-            color: white;
-            font-size: 1.6rem;
-            letter-spacing: 0.5px;
-        }
-        
+       /* Navbar styling */
+.navbar {
+    background-color: darkgreen;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+    transition: var(--transition);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: white;
+    font-size: 0.95rem; /* pehle bada tha, ab chhota */
+    letter-spacing: 0.3px;
+}
+
         .nav-link {
             color:white;
             font-weight: 500;
@@ -462,3 +462,20 @@
                 font-size: 2rem;
             }
         }
+        /* Fix for mobile columns */
+@media (max-width: 768px) {
+    .features .col-md-4,
+    .contact .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .features .feature-box {
+        margin-bottom: 25px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

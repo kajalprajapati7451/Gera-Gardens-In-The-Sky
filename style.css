@@ -31,7 +31,7 @@
 .navbar-brand {
     font-weight: 600;
     color: white;
-    font-size: 0.95rem; /* pehle bada tha, ab chhota */
+    font-size: 1.5rem; 
     letter-spacing: 0.3px;
 }
 
@@ -461,6 +461,9 @@
             .about h2, .contact h2, .map-section h2, .features h2 {
                 font-size: 2rem;
             }
+        }
+        .navbar-brand{
+            font-size: 1.2rem;;
         }
         /* Fix for mobile columns */
 @media (max-width: 768px) {

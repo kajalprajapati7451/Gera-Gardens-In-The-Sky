@@ -31,7 +31,7 @@
 .navbar-brand {
     font-weight: 600;
     color: white;
-    font-size: 1.5rem; 
+    font-size: 0.75rem; /* pehle bada tha, ab chhota */
     letter-spacing: 0.3px;
 }
 
@@ -463,7 +463,7 @@
             }
         }
         .navbar-brand{
-            font-size: 1.2rem;;
+            font-size: 1rem;;
         }
         /* Fix for mobile columns */
 @media (max-width: 768px) {
